@@ -1,7 +1,16 @@
 package c0909_method_calls;
 
+import java.util.List;
+
 public class TrickyPrimitives {
     public static void main(String[] args) {
+        //unmodify 
+        List<Integer>ints = List.of(0,1,2,3);
+
+        for(Integer i : ints){
+            System.out.println(i * i);
+        }
+
         // System.out.println('a' + 1);
 
         // int b = 'a';
