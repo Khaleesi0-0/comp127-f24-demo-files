@@ -1,5 +1,6 @@
 package c0913_refactoring;
 
+
 public class CStyleLoops {
     public static void main(String[] args) {
         for(int i=1; i<=10; i++) {
@@ -30,4 +31,5 @@ public class CStyleLoops {
         System.out.println();
         System.out.println("===== ===== =====");
     }
+    
 }
